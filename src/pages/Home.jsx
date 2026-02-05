@@ -19,7 +19,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   const canvasRef = useRef(null);
   const [isLoaded, setIsLoaded] = useState(false);
-  const registrationUrl = "https://unstop.com/o/8P4wryC?utm_medium=Share&utm_source=logged_out_user&utm_campaign=Online_coding_challenge";
+  const registrationUrl = "https://udbhav2k25.netlify.app/registration";
   const navigate = useNavigate();
   const { user, isAuthenticated, logout } = useAuth();
   useEffect(() => {
