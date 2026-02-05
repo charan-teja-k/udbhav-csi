@@ -190,7 +190,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              The Ultimate 12-Hour Hackathon Experience. Build the future with code, creativity, and collaboration.
+              The Ultimate 24-Hour Hackathon Experience. Build the future with code, creativity, and collaboration.
             </motion.p>
 
             {/* Countdown */}
@@ -240,7 +240,7 @@ export default function Home() {
             >
               {[
                 { value: "100+", label: "Participants" },
-                { value: "12H", label: "Duration" },
+                { value: "24H", label: "Duration" },
                 { value: "35K+", label: "In Prizes" },
                 { value: "20+", label: "Mentors" },
               ].map((stat, i) => (
@@ -290,7 +290,7 @@ export default function Home() {
             </h2>
             <p className="text-lg text-gray-400 max-w-3xl mx-auto mt-8">
               Udhbav 2K25 is the flagship hackathon that brings together the brightest minds
-              to solve real-world problems through technology. Join us for 12 hours of innovation,
+              to solve real-world problems through technology. Join us for 24 hours of innovation,
               learning, and unforgettable experiences.
             </p>
           </motion.div>
@@ -497,7 +497,7 @@ export default function Home() {
             {
               date: "MAR 1-2, 2025",
               title: "Hackathon Days",
-              content: "12 hours of non-stop innovation, coding, and building.",
+              content: "24 hours of non-stop innovation, coding, and building.",
             },
             {
               date: "MAR 2, 2025",
@@ -522,7 +522,7 @@ export default function Home() {
               Ready to build something unforgettable?
             </h3>
             <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-8">
-              Join UDHBAV 2K26 for 12 hours of focused creation, rapid learning, and a community
+              Join UDHBAV 2K26 for 24 hours of focused creation, rapid learning, and a community
               that ships bold ideas. Your next breakthrough starts here.
             </p>
             <Button
